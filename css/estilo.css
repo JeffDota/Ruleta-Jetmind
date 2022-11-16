@@ -1,0 +1,38 @@
+
+* {
+    margin: 0px;
+    text-align: center;
+}
+
+body {
+    background-image: url("/juego-ruleta-main/image/charlotte.png");
+}
+
+.va {
+    position: relative;
+    z-index: 100;
+    
+  }
+  
+  img {
+    z-index: 100;
+    transition: all 5s;
+    
+    
+}
+#boton {
+    background-color: transparent;
+    border:0;
+    float:right;
+    position: relative;
+    top: -220px;
+}
+
+#premio {
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 20px;
+    padding: 20px;
+}
